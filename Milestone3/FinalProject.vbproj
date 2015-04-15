@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F094023-7F8D-4081-BA0F-875EC1C5E961}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Milestone3.My.MyApplication</StartupObject>
+    <RootNamespace>Milestone3</RootNamespace>
+    <AssemblyName>Milestone3</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Milestone3.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Milestone3.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdjustmentLog.vb" />
+    <Compile Include="AdjustmentType.vb" />
+    <Compile Include="CheckoutLog.vb" />
+    <Compile Include="Contact.vb" />
+    <Compile Include="Controller.vb" />
+    <Compile Include="Customer.vb" />
+    <Compile Include="Freight.vb" />
+    <Compile Include="Inventory.vb" />
+    <Compile Include="ItemLocation.vb" />
+    <Compile Include="ItemVendor.vb" />
+    <Compile Include="Receivables.vb" />
+    <Compile Include="Sales.vb" />
+    <Compile Include="SalesLineItem.vb" />
+    <Compile Include="Users.vb" />
+    <Compile Include="UsersLog.vb" />
+    <Compile Include="uxAdjustments.Designer.vb">
+      <DependentUpon>uxAdjustments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uxAdjustments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uxAdminConsole.Designer.vb">
+      <DependentUpon>uxAdminConsole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uxAdminConsole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uxCheckout.Designer.vb">
+      <DependentUpon>uxCheckout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uxCheckout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uxFreight.Designer.vb">
+      <DependentUpon>uxFreight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uxFreight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uxIntroScreen.Designer.vb">
+      <DependentUpon>uxIntroScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uxIntroScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uxLogin.Designer.vb">
+      <DependentUpon>uxLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uxLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uxReceivables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uxReceivables.Designer.vb">
+      <DependentUpon>uxReceivables.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="uxReports.Designer.vb">
+      <DependentUpon>uxReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uxReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uxSales.Designer.vb">
+      <DependentUpon>uxSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uxSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendor.vb" />
+    <Compile Include="Warehouse.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="uxReceivables.resx">
+      <DependentUpon>uxReceivables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

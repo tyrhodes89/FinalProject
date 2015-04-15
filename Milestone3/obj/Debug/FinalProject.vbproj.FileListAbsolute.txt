@@ -1,0 +1,10 @@
+C:\Users\Corey\Documents\!School\MANGT 686-A\FinalProject\Milestone3\bin\Debug\Milestone3.exe.config
+C:\Users\Corey\Documents\!School\MANGT 686-A\FinalProject\Milestone3\bin\Debug\Milestone3.exe
+C:\Users\Corey\Documents\!School\MANGT 686-A\FinalProject\Milestone3\bin\Debug\Milestone3.pdb
+C:\Users\Corey\Documents\!School\MANGT 686-A\FinalProject\Milestone3\bin\Debug\Milestone3.xml
+C:\Users\Corey\Documents\!School\MANGT 686-A\FinalProject\Milestone3\obj\Debug\Milestone3.uxReceivables.resources
+C:\Users\Corey\Documents\!School\MANGT 686-A\FinalProject\Milestone3\obj\Debug\Milestone3.Resources.resources
+C:\Users\Corey\Documents\!School\MANGT 686-A\FinalProject\Milestone3\obj\Debug\FinalProject.vbproj.GenerateResource.Cache
+C:\Users\Corey\Documents\!School\MANGT 686-A\FinalProject\Milestone3\obj\Debug\Milestone3.exe
+C:\Users\Corey\Documents\!School\MANGT 686-A\FinalProject\Milestone3\obj\Debug\Milestone3.xml
+C:\Users\Corey\Documents\!School\MANGT 686-A\FinalProject\Milestone3\obj\Debug\Milestone3.pdb
